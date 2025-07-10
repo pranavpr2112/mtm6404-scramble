@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stats div {
+  width: 100px;
+}
+
+.scrambled-word {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  font-size: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+button.pass-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button.pass-btn:hover {
+  background-color: #c9302c;
+}
